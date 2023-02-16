@@ -1,11 +1,11 @@
 import { Navbar, Container, Nav } from "react-bootstrap";
 
-const CustomNavBar = (props) => {
+const CustomNavBar = (claim) => {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
         <Navbar.Brand href="#home">
-          <strong>Pasta Restaurant</strong> <i> {props.claim}</i>
+          <strong>Pasta Restaurant</strong> <i> {claim}</i>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
